@@ -24,6 +24,6 @@ def solution(n, exec_times):
     servers.sort(key=lambda x: x[SERVER_ID])
     return [server[JOBS_DONE] for server in servers]
 
-# servers = [[0, i, 0] for i in range(5)]
-# print(servers)
+servers = [[0, i, 0] for i in range(5)]
+print(servers)
     
